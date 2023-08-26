@@ -5,12 +5,12 @@ import { FriendListItem } from '../FriendListItem/FriendListItem';
 export default function FriendList({ friends }) {
   return (
     <List className="friend-list">
-      {friends.map(({ avatar, name, $isOnline, id }) => (
+      {friends.map(({ avatar, name, isOnline, id }) => (
         <FriendListItem
           key={id}
           avatar={avatar}
           name={name}
-          $isOnline={$isOnline}
+          $isOnline={isOnline}
         />
       ))}
     </List>
