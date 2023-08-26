@@ -49,6 +49,9 @@ export const Location = styled.p`
 
 export const StatsWrapper = styled.ul`
   display: flex;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 `;
 
 export const StatsItem = styled.li`
@@ -58,6 +61,7 @@ export const StatsItem = styled.li`
   padding: 15px 10px;
   background-color: #f3f3f3;
   text-align: center;
+
 
   border-top: 1px solid #d3d3d3;
   &:not(:last-child) {

@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Table = styled.table`
-  width: 500px;
+  width: 900px;
   margin: 30px auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
 `;
 
 export const THead = styled.thead`
-  background-color: #00bcd5;
+  background-color: #add8e6;
 `;
 
 export const TBody = styled.tbody``;

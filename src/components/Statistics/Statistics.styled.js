@@ -25,6 +25,7 @@ export const List = styled.ul`
   justify-content: center;
   align-items: center;
   background-color: #f3f6f9;
+  padding: 0px;
 `;
 
 export const Item = styled.li`
